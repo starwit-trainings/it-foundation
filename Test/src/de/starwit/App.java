@@ -30,7 +30,10 @@ public class App {
 		        records.add(Arrays.asList(values));
 		    }
 		}		
-
+	}
+	
+	public static String generateString() {
+		return "Hallo Welt!";
 	}
 
 }
