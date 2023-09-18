@@ -1,0 +1,10 @@
+
+.my-heading {
+    color:brown;
+}
+
+#big-image {
+    width: 500px;
+    height: auto;
+    object-fit: scale-down;
+}

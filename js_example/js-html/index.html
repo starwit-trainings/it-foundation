@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Javascript Example</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/code.jquery.com_jquery-3.7.1.js" ></script>
+    <script>
+        $(document).ready(function() {
+            $("p").click(function() {
+                $(this).hide();
+            });
+
+            $("#do-stuff").click(function() {
+                console.log('clicked');
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <h1 class="my-heading">Hallo Welt</h1>
+    <p>Say something interesting!</p>
+    <button id="do-stuff">Do Stuff</button>
+    <h2>Info about world's the best club</h2>
+    <img id="big-image" src="img/1._FC_Union_Berlin_Logo.svg.png">
+</body>
+</html>
