@@ -1,9 +1,9 @@
 # Overview
 This is a sample repository, showcasing a number of fundamental concept in software engineering.
 # Subprojects
-
+The following sub projects are available and show various interesting features.
 ## Java Example
-
+[Java Example](/java_example/Readme.md)
 ## HTML/CSS Example
 
 # Markdown Samples
