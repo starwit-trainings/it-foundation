@@ -1,15 +1,15 @@
 
 .my-heading {
-    color:brown;
+    color: #ddbcbc;
 }
 
 #big-image {
-    width: 500px;
+    width: 300px;
     height: auto;
     object-fit: scale-down;
 }
 
 .my-style {
-    text-align: right;
+    text-align: justify;
     
 }

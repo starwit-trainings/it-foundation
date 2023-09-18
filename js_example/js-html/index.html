@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Javascript Example</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <script src="js/code.jquery.com_jquery-3.7.1.js" ></script>
     <script>
         $(document).ready(function() {
@@ -12,8 +12,16 @@
                 $(this).hide();
             });
 
-            $("#do-stuff").click(function() {
+            $("#do-stuff").click(function(e) {
                 console.log('clicked');
+                console.log(e);
+                $.get( "img/1._FC_Union_Berlin_Logo.svg.png", function( data ) {
+                    console.log(data);
+                });
+            });
+
+            $(".my-heading").click(function(e) {
+                alert('clicked.');
             });
         });
 
@@ -25,5 +33,8 @@
     <button id="do-stuff">Do Stuff</button>
     <h2>Info about world's the best club</h2>
     <img id="big-image" src="img/1._FC_Union_Berlin_Logo.svg.png">
+    <h1 class="my-heading">Abschnitt 2</h1>
+    <p class="my-style">HTML5 (Hypertext Markup Language 5) is a markup language
+        used for structuring and presenting content on the World Wide Web. It is the fifth and final[3] major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained by the Web Hypertext Application Technology Working Group (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft).</p>
 </body>
 </html>
