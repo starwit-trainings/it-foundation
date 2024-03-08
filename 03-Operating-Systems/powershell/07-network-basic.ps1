@@ -13,3 +13,6 @@ Write-host -n ($encoding.GetString($buffer,0,$response))
 
 $writer.Close()
 $stream.Close()
+
+# Task
+# download html file from tasks in block 01

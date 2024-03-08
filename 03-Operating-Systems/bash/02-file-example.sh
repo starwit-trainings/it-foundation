@@ -23,3 +23,8 @@ echo $file
 # Find all csv files in a directory structure 
 # move them to a newly created folder "processed"
 # upon moving rename by adding folder name to filename, example: 1970-01-01-original.csv
+# commands find, mv
+
+for f in $(find . -name '*.csv'); do
+    echo $f
+done
