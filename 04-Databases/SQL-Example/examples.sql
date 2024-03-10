@@ -1,3 +1,6 @@
+
+-- Join Verein & Spiel to get club names
+
 use liga;
 
 select 
