@@ -17,7 +17,7 @@ Here we want to learn, how operating systems work. Main topic is shell scripting
 * Does your operating system have a package manager?
 * List all installed software packages.
 
-For Windows you can use Powershell to use Os functions and to make your life easier. On Linux Bash is a widely used shell. 
+For Windows you can use Powershell to use OS functions and to make your life easier. On Linux Bash is a widely used shell. 
 
 ### Bash
 Examples and tasks can be found in this [folder](./bash/)

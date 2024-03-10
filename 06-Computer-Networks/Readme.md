@@ -1,5 +1,11 @@
 # 06 - Computer Networks
 
+Computer without networks are nice, connected computers however are aweseome! In this section you will learn what computer networks are and how you can use them.
+
+Stuff to read:
+* Introduction to [IP](https://en.wikipedia.org/wiki/Internet_protocol_suite), [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
+* 
+
 ## Tasks
 
 ### Basic network questions

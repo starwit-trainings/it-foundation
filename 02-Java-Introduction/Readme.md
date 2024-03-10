@@ -18,4 +18,4 @@ This section contains a quick introduction into the Java programming language. N
     * add a rolling file appender [Hint](https://mkyong.com/logging/log4j2-xml-example/)
 * create executable jar file [Hint](https://www.baeldung.com/executable-jar-with-maven#bd-thymeleaf-1)
     * unzip created file
-* write a unit test
+* write and run a unit test
