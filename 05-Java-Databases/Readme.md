@@ -16,3 +16,4 @@ In this section we learn how to access databases from a programming language. Al
 * If we wanted to import large datasets via CSV files - how would you solve this problem?
 * Any thoughts on database connection(s) - could there be a problem?
 * Why can't we just load CSV files and store them in memory?
+* Are you bored with ResultSet parsing? Any ideas what you can do? Hint - libraries are your friend :)

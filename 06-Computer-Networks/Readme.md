@@ -4,7 +4,7 @@ Computer without networks are nice, connected computers however are aweseome! In
 
 Stuff to read:
 * Introduction to [IP](https://en.wikipedia.org/wiki/Internet_protocol_suite), [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
-* 
+* [Wireshark](https://www.wireshark.org/)
 
 ## Tasks
 
@@ -27,3 +27,4 @@ Stuff to read:
     * Which protocols can you see?
     * Can we list packets that belong together?
     * How many packets are transfered?
+* run [Server example](serverexample/Readme.md) and implement server functions.
