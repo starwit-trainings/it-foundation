@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  spring-app:
+    image: restdemo:latest
+  db:
+    image: mariadb:latest

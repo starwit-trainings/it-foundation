@@ -7,6 +7,8 @@ Stuff to read:
 * Kickstart SpringBoot app: https://start.spring.io/
 
 ## Tasks
+* search for images in https://hub.docker.com/
+    * MariaDB, Wordpress
 * Build app and container
     * mvn package
     * sudo docker build . -t restdemo:latest
