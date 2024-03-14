@@ -3,5 +3,30 @@ version: "3.8"
 services:
   spring-app:
     image: restdemo:latest
+    environment:
+      - JDBC_URL=jdbc:mariadb://db:3306/liga
+    ports:
+      - 8080:8080
+    depends_on:
+      db:
+        condition: service_healthy
+
   db:
     image: mariadb:latest
+    environment:
+    - MARIADB_ROOT_PASSWORD=password
+    - MARIADB_DATABASE=liga
+    - MARIADB_USER=liga
+    - MARIADB_PASSWORD=liga
+    ports:
+      - 13306:3306    
+    volumes:
+    - ./01-2016-06-30_bundesliga-structure.sql:/docker-entrypoint-initdb.d/01-2016-06-30_bundesliga-structure.sql
+    - ./02-2016-06-30_bundesliga-data.sql:/docker-entrypoint-initdb.d/02-2016-06-30_bundesliga-data.sql
+    healthcheck:
+      test: [ "CMD", "healthcheck.sh", "--su-mysql", "--connect", "--innodb_initialized" ]
+      start_period: 1m
+      start_interval: 10s
+      interval: 1m
+      timeout: 5s
+      retries: 3
