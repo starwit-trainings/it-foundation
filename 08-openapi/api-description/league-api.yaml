@@ -1,0 +1,88 @@
+openapi: '3.0.2'
+info:
+  title: Liga API
+  version: '0.0.1'
+  description: |
+    Sample API for German Football league 
+
+servers:
+  - url: http://localhost:8080/api
+
+paths:
+  /info:
+    get:
+      responses:
+        '200':
+          description: OK
+  /clubs:
+    get:
+      description: get all clubs
+      operationId: getClubs
+      responses:
+        '200':
+          description: get all clubs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Club'
+    post:
+        description: create club
+        operationId: createClub
+        requestBody:
+          description: Club to be created
+          required: true
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Club'
+        responses:
+          '200':
+            description: create new club
+
+  /clubs/{id}:
+    get:
+      description: get club by id
+      operationId: getClubById
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: integer
+          required: true
+          description: Numeric ID of the club to get
+      responses:
+        '200':
+          description: get all clubs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Club'            
+
+components:
+  schemas:
+    Info:
+      type: object
+      properties:
+        generation-date:
+          type: string
+          format: date-time
+        systemDescription:
+          type: string
+        apiVersion:
+          type: string
+    Club:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        name: 
+          type: string
+        league:
+          type: integer
+
+
