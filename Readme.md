@@ -1,6 +1,15 @@
 # Overview
 This is a tutorial repository, showcasing a number of fundamental concept in software engineering. Feel free to use this material for your teaching classes. However please not [license note](#license).
 
+## Tools & Preparations
+Here is an overview of tools and requirements you should install on your computer. To install and use software on a computer is an essential first step, to become a software engineer. So take your time, preparing your work environment.
+
+* To edit recommended tools is [VSCode](https://code.visualstudio.com/). Note you don't need admin privileges to use this software. VSCode can be enhanced by many extensions. For this course _Extension pack for Java_, _PowerShell_ and _YAML_ are recommended. But feel free to explore...
+* Database and HTTP server can be downloaded at [ApacheFriends](https://www.apachefriends.org/) for your operating system. 
+* [Maven](https://maven.apache.org/) is used to compile and package Java software.
+* Powershell can be used on [Windows](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4) and on Linux e.g. [Ubuntu](https://learn.microsoft.com/en-us/powershell/scripting/install/install-ubuntu?view=powershell-7.4)
+* [NodeJS](https://nodejs.org/) which can run JavaScript without a browser and which contains a lot of helpful development tools.
+
 # Subprojects
 
 Each of the next sections can be worked with individually, so no particular order is required. You will however notice, that certain topics, like modeling classes and map them to SQL structure are recurring aspects. 
@@ -33,5 +42,5 @@ As software becomes more and more complex, breaking it into seperate pieces is e
 
 # License
 
-Code in this repository is published under AGPL. So if you want to adapt it, any change needs to be published under AGPL as well. Please let us know, which changes you made. Same goes for errors and bugs.
+Code in this repository is property of [Starwit Technologies GmbH](https://starwit-technologies.de/) and is published under AGPL. So if you want to adapt it, any change needs to be published under AGPL as well. Please let us know, which changes you made. Same goes for errors and bugs.
 

@@ -1,5 +1,7 @@
 # Markdown excersise
 
+If you started here, Markdown will be your first formal language. It can be used to describe structure and content of texts like documentation, tutorials or even presentation slides. As this file is written in Markdown itself, all tasks can be hacked right here.
+
 ## Samples
 Markdown is super important for documenting so here are some examples.
 

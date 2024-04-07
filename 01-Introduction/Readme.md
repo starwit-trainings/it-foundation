@@ -9,11 +9,12 @@ When writing software or defining infrastructure - computers will only understan
 * [Markdown Syntax Guide](https://www.markdownguide.org/basic-syntax/)
 * Introduction to [HTML](https://www.w3schools.com/html/default.asp)
 * Introduction to [CSS](https://www.w3schools.com/css/default.asp)
+* Introdction to [JavaScript](https://www.w3schools.com/js/default.asp)
 
 ## Tasks
 * What is the difference between describing structures and describing behaviour?
 * Think of something, student next to you, shall do for you - how can you make sure, that your job description is complete and unambigious?
-
+* No write down job description and hand it to a random student in your group. Is it possible to check, if he/she understands, what you want?
 
 ## Sub chapters
 
