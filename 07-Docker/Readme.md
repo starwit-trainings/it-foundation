@@ -17,3 +17,5 @@ Stuff to read:
 * What happens if you stop containers?
 * Use Docker compose to run Wordpress and MariaDB together - make sure database is _not_ exposed tp public network
 * Run [Java example](java_example/Readme.md)
+* Run docker-compose file in folder [docker-compose](docker-compose/docker-compose.yaml)
+* Add Grafana to compose file - Docker image for Grafana can be found [here](https://hub.docker.com/r/grafana/grafana)

@@ -2,7 +2,20 @@
 
 This folder contains simple and easy tasks to get introduced to the concept of formal languages. Exercises and tasks are described in each example's readme file.
 
-## Examples
+When writing software or defining infrastructure - computers will only understand formal languages. So this chapter tries to make you familiar with the concept of formal languages. Starting with defining structures with [Markdown](01-markdown/Readme.md) and [HTML/CSS](02-html-css-intro/Readme.md), you wil learn to write your first programs in JavaScript.
+
+## Stuff to read
+
+* [Markdown Syntax Guide](https://www.markdownguide.org/basic-syntax/)
+* Introduction to [HTML](https://www.w3schools.com/html/default.asp)
+* Introduction to [CSS](https://www.w3schools.com/css/default.asp)
+
+## Tasks
+* What is the difference between describing structures and describing behaviour?
+* Think of something, student next to you, shall do for you - how can you make sure, that your job description is complete and unambigious?
+
+
+## Sub chapters
 
 * [Markdown](01-markdown/Readme.md)
 * [HTML/CSS](02-html-css-intro/Readme.md)
