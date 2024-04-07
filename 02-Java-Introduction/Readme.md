@@ -2,6 +2,10 @@
 
 This section contains a quick introduction into the Java programming language. Next to the obligatory hello world moment, it shall also introduce base concepts for build & dependency management.
 
+## Stuff to read
+* Introduction to [Java](https://www.w3schools.com/java/java_intro.asp)
+* What is Java compiled into? [Bytecode](https://en.wikipedia.org/wiki/Java_bytecode)
+
 ## Tasks
 
 * Compile & run application
@@ -9,7 +13,7 @@ This section contains a quick introduction into the Java programming language. N
 * parse file content into a data structure [Hint](https://www.tutorialspoint.com/java_generics/java_generics_list.htm)
 * read application properties from app.properties [Hint](https://mkyong.com/java/java-properties-file-examples/)
 * read CSV file location from properties file
-* handle exceptions
+* handle exceptions [Hint](https://www.baeldung.com/java-exceptions)
     * properties file not found
     * configured CSV file not found
 * create proper log output
@@ -19,3 +23,4 @@ This section contains a quick introduction into the Java programming language. N
 * create executable jar file [Hint](https://www.baeldung.com/executable-jar-with-maven#bd-thymeleaf-1)
     * unzip created file
 * write and run a unit test
+* Can you look into compiled Java classes with your editor?
