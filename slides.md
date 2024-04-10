@@ -2,48 +2,69 @@
 marp: true
 paginate: hide
 theme: default 
-header: ![h:50](imgs/starwit.png)
+header: ![h:35](imgs/starwit.png)
 footer: 'Starwit Technologies GmbH | IT Foundations | Overview'
 ---
 
 <style>
 header {
   text-align: right;
+  font-size: 0.7rem;
+  color: #bbb;
   margin: 20px;
   left: 0px;
   right: 0px;
-  border-top: 2px;
+  padding-top: 5px;
 }
 footer {
   font-size: 0.7rem;
+  color: #bbb;
 }
 section.lead {
   text-align: center;
+  margin-bottom: 40px;
 }
 section {
   font-size: 1.2rem;
 }
 section.lead h1 {
-  font-size: 2.0rem;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
-h2 {
-  position: absolute;
-  top: 10px;
-  padding-top: 15px;
-  text-transform: uppercase;
+section.linked footer {
+  display: none;
+}
+section.linked header {
+  display: none;
 }
 section.quote {
   font-size: 1.0rem;
   text-align: center;
+  font-style: italic;
+  color: #555;
 }
 
-section.linked footer {
-  display: none;
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #2B5A6A;
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+a {
+  color: #3A9FC1;
+}
+a:hover {
+  color: #1E708B; 
+  text-decoration: underline; 
 }
 
-section.linked header {
-  display: none;
-}
 </style>
 
 <!-- _class: lead -->
@@ -68,13 +89,13 @@ Here is an overview of tools and requirements you should install on your compute
 Each of the next sections can be worked with individually, so no particular order is required. You will, however, notice that certain topics, like modeling classes and map them to SQL structure, are recurring aspects.
 
 ---
-## 01 - Introduction to Formal Languages
+## 01 - Introduction to Formal Languages 
 Here you can get a first introduction into the idea of formal languages. Structure, layout & behaviour are introduced here: [Markdown, HTML & Javascript](01-Introduction/Readme.md). It is recommendable to start with this lesson if you have no developing experience at all.
 
 ---
 ## 02 - Introduction to Java
 Java is still one of the most used languages and a great example for an object oriented programming language. Next to a general language introduction you will see concepts like logging, property files and build management. More details here: 
-[Java Introduction](02-Java-Introduction/Readme.md)
+[Java Introduction](02-Java-Introduction/Readme.md).
 
 ---
 ## 03 - Operating Systems & Shell Scripting

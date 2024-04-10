@@ -20,7 +20,7 @@ Here you can get a first introduction into the idea of formal languages. Structu
 
 ## 02 - Introduction to Java
 Java is still one of the most used languages and a great example for an object oriented programming language. Next to a general language introduction you will see concepts like logging, property files and build management. More details here: 
-[Java Introduction](/02-Java-Introduction/Readme.md)
+[Java Introduction](/02-Java-Introduction/Readme.md).
 
 ## 03 - Operating Systems & Shell Scripting
 This chapter contains a number of tasks and excercises to explain how an operating system works. Shell examples can be used on Windows and Linux. If you want to work with both of them, this chapter may take more time than any other topic. More detailscan be found here: [Operating Systems & Shell Scripting](/03-Operating-Systems/Readme.md).
