@@ -2,48 +2,70 @@
 marp: true
 paginate: hide
 theme: default 
-header: ![h:50](imgs/starwit.png)
+header: ![h:50](../imgs/starwit.png)
 footer: 'Starwit Technologies GmbH | IT Foundations | 01 - Introduction'
 ---
 
 <style>
 header {
   text-align: right;
+  font-size: 0.7rem;
+  color: #bbb;
   margin: 20px;
   left: 0px;
   right: 0px;
-  border-top: 2px;
+  padding-top: 5px;
 }
 footer {
   font-size: 0.7rem;
+  color: #bbb;
 }
 section.lead {
-  text-align: center;
+  text-align: left;
+  margin-bottom: 40px;
 }
 section {
   font-size: 1.2rem;
 }
 section.lead h1 {
-  font-size: 2.0rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
 }
-h2 {
-  position: absolute;
-  top: 10px;
-  padding-top: 15px;
-  text-transform: uppercase;
+section.linked footer {
+  display: none;
+}
+section.linked header {
+  display: none;
 }
 section.quote {
   font-size: 1.0rem;
   text-align: center;
+  font-style: italic;
+  color: #555;
 }
 
-section.linked footer {
-  display: none;
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #2B5A6A;
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+a {
+  color: #3A9FC1;
+}
+a:hover {
+  color: #1E708B; 
+  text-decoration: underline; 
 }
 
-section.linked header {
-  display: none;
-}
 </style>
 
 <!-- _class: lead -->
@@ -64,8 +86,8 @@ When writing software or defining infrastructure - computers will only understan
 ---
 ## Tasks
 * What is the difference between describing structures and describing behaviour?
-* Think of something, student next to you, shall do for you - how can you make sure, that your job description is complete and unambigious?
-* No write down job description and hand it to a random student in your group. Is it possible to check, if he/she understands, what you want?
+* Think of something the student next to you shall do for you - how can you make sure your job description is complete and unambigious?
+* Now write down job description and hand it to a random student in your group. Is it possible to check if he/she understands what you want?
 
 ---
 ## Sub chapters
