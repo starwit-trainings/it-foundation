@@ -13,8 +13,8 @@ When writing software or defining infrastructure - computers will only understan
 
 ## Tasks
 * What is the difference between describing structures and describing behaviour?
-* Think of something, student next to you, shall do for you - how can you make sure, that your job description is complete and unambigious?
-* No write down job description and hand it to a random student in your group. Is it possible to check, if he/she understands, what you want?
+* Think of something the student next to you shall do for you - how can you make sure your job description is complete and unambigious?
+* Now write down job description and hand it to a random student in your group. Is it possible to check if he/she understands what you want?
 
 ## Sub chapters
 
