@@ -1,8 +1,8 @@
-# Introduction Examples
+# 01 - Introduction Examples
 
 This folder contains simple and easy tasks to get introduced to the concept of formal languages. Exercises and tasks are described in each example's readme file.
 
-When writing software or defining infrastructure - computers will only understand formal languages. So this chapter tries to make you familiar with the concept of formal languages. Starting with defining structures with [Markdown](01-markdown/Readme.md) and [HTML/CSS](02-html-css-intro/Readme.md), you wil learn to write your first programs in JavaScript.
+When writing software or defining infrastructure, computers only understand formal languages. So this chapter tries to make you familiar with the concept of formal languages. Starting with defining structures with [Markdown](01-markdown/Readme.md) and [HTML/CSS](02-html-css-intro/Readme.md), you wil learn to write your first programs in JavaScript.
 
 ## Stuff to read
 

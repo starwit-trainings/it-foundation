@@ -1,8 +1,8 @@
 # 07 - Docker & Container
 
-Container are a great way to package, run and compose applications. In this section you will learn, how to use and build Docker containers.
+Containers are a great way to package, run and compose applications. In this section you will learn how to use and build Docker containers.
 
-Stuff to read:
+## Stuff to read
 
 * Docker overview: https://docs.docker.com/get-started/overview/
 * Docker compose https://docs.docker.com/get-started/08_using_compose/

@@ -1,8 +1,8 @@
-# Java Introduction
+# 02 - Java Introduction
 
 This section contains a quick introduction into the Java programming language. Next to the obligatory hello world moment, it shall also introduce base concepts for build & dependency management.
 
-## Stuff to Read
+## Stuff to read
 
 * Introduction to [Java](https://www.w3schools.com/java/java_intro.asp)
 * What is Java compiled into? [Bytecode](https://en.wikipedia.org/wiki/Java_bytecode)

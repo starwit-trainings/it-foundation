@@ -23,7 +23,7 @@ Java is still one of the most used languages and a great example for an object o
 [Java Introduction](/02-Java-Introduction/Readme.md).
 
 ## 03 - Operating Systems & Shell Scripting
-This chapter contains a number of tasks and excercises to explain how an operating system works. Shell examples can be used on Windows and Linux. If you want to work with both of them, this chapter may take more time than any other topic. More detailscan be found here: [Operating Systems & Shell Scripting](/03-Operating-Systems/Readme.md).
+This chapter contains a number of tasks and excercises to explain how an operating system works. Shell examples can be used on Windows and Linux. If you want to work with both of them, this chapter may take more time than any other topic. More details can be found here: [Operating Systems & Shell Scripting](/03-Operating-Systems/Readme.md).
 
 ## 04 - Databases
 Relational data bases are still the backbone of modern computing. So SQL and its application are introduced in this section. You will learn how to define and manipulate data structures with SQL. Find more details at [Databases](/04-Databases/Readme.md).

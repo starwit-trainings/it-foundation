@@ -28,6 +28,7 @@ section {
   font-size: 1.2rem;
 }
 section.lead h1 {
+  text-align: center;
   font-size: 2.5rem;
   font-weight: 600;
 }
@@ -70,7 +71,8 @@ a:hover {
 <!-- _class: lead -->
 # Overview
 
-This is a tutorial repository, showcasing a number of fundamental concept in software engineering. Feel free to use this material for your teaching classes. However, please not [license note](#license).
+This is a tutorial repository, showcasing a number of fundamental concept in software engineering. 
+Feel free to use this material for your teaching classes. However, please not [license note](#license).
 
 ---
 ## Tools & Preparations
@@ -98,7 +100,7 @@ Java is still one of the most used languages and a great example for an object o
 
 ---
 ## 03 - Operating Systems & Shell Scripting
-This chapter contains a number of tasks and excercises to explain how an operating system works. Shell examples can be used on Windows and Linux. If you want to work with both of them, this chapter may take more time than any other topic. More detailscan be found here: [Operating Systems & Shell Scripting](03-Operating-Systems/Readme.md).
+This chapter contains a number of tasks and excercises to explain how an operating system works. Shell examples can be used on Windows and Linux. If you want to work with both of them, this chapter may take more time than any other topic. More details can be found here: [Operating Systems & Shell Scripting](03-Operating-Systems/Readme.md).
 
 ---
 ## 04 - Databases
@@ -118,7 +120,7 @@ Developing software costs money but running software generates revenue. So knowi
 
 ---
 ## 08 - Designing Interfaces with OpenAPI
-As software becomes more and more complex, breaking it into seperate pieces is essential to stay in charge of complexity. Regardless of distributing software into local modules or via a network - you have to design interfaces. Chapter [openAPI](08-openapi/Readme.md) therefore introduces a standardized way to design APIs and generate code from a specification.
+As software becomes more and more complex, breaking it into seperate pieces is essential to stay in charge of complexity. Regardless of distributing software into local modules or via a network - you have to design interfaces. Chapter [OpenAPI](08-openapi/Readme.md) therefore introduces a standardized way to design APIs and generate code from a specification.
 
 ---
 # License

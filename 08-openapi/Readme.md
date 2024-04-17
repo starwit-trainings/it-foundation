@@ -4,5 +4,5 @@
 
 ## Tasks
 * add API calls for all tables from [database section](../04-Databases/Readme.md)
-* Implement club functions 
+* implement club functions 
 * test client
